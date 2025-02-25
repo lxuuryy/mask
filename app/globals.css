@@ -7,15 +7,13 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+
+
+
+body{
+  margin: 0px;
+  background-color: #0f0f0f;
+  font-family: 'Avant Garde Book BT';
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
